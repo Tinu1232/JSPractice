@@ -1,6 +1,6 @@
 // create a mobile store which can take mobiles and remove mobiles from the inventory.
 
-/*class inventory{
+class inventory{
     constructor(){
         this.inventory = [];
     }
@@ -61,7 +61,7 @@ let airtelCard = new sim("Airtel", 400);
 myInventory.addMobiles(mobile1, mobile2);
 mobile1.insertSim(jioCard);
 mobile2.insertSim(airtelCard)
-*/
+
 
 class family{
     constructor(surname){
@@ -125,6 +125,7 @@ let mother = new member("Sumitra", 49, "Female")
 let son1 = new member("Vishal", 29, "Male")
 let son2 = new member("Nilesh Kumar", 26, "Male");
 rajpurohitFamily.addMembers(father, mother, son1, son2);
+
 
 
 
